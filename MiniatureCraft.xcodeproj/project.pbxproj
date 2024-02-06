@@ -1,0 +1,638 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FA6F42582B5F449500133CC8 /* WorldEntity+Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6F42572B5F449500133CC8 /* WorldEntity+Configuration.swift */; };
+		FA6F425D2B5F4A8600133CC8 /* RotationSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6F425C2B5F4A8600133CC8 /* RotationSystem.swift */; };
+		FA6F42602B5F4C1F00133CC8 /* DragRotationModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6F425F2B5F4C1F00133CC8 /* DragRotationModifier.swift */; };
+		FA6F42622B5F506A00133CC8 /* WorldViewToggle.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6F42612B5F506A00133CC8 /* WorldViewToggle.swift */; };
+		FA6F42652B5F5F6400133CC8 /* World.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6F42642B5F5F6400133CC8 /* World.swift */; };
+		FAA5A5742B5C6E6F00BF4374 /* RealityKitContent in Frameworks */ = {isa = PBXBuildFile; productRef = FAA5A5732B5C6E6F00BF4374 /* RealityKitContent */; };
+		FAA5A5762B5C6E6F00BF4374 /* MiniatureCraftApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA5A5752B5C6E6F00BF4374 /* MiniatureCraftApp.swift */; };
+		FAA5A5782B5C6E6F00BF4374 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA5A5772B5C6E6F00BF4374 /* ContentView.swift */; };
+		FAA5A57C2B5C6E7000BF4374 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAA5A57B2B5C6E7000BF4374 /* Assets.xcassets */; };
+		FAA5A57F2B5C6E7000BF4374 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAA5A57E2B5C6E7000BF4374 /* Preview Assets.xcassets */; };
+		FAA5A58A2B5C6E7100BF4374 /* MiniatureCraftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA5A5892B5C6E7100BF4374 /* MiniatureCraftTests.swift */; };
+		FAA5A5962B5D986A00BF4374 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA5A5952B5D986A00BF4374 /* ViewModel.swift */; };
+		FAA5A5982B5DA42800BF4374 /* Module.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA5A5972B5DA42800BF4374 /* Module.swift */; };
+		FAA5A59A2B5DA55900BF4374 /* WorldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA5A5992B5DA55900BF4374 /* WorldView.swift */; };
+		FAA5A59D2B5DB06100BF4374 /* WorldEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA5A59C2B5DB06100BF4374 /* WorldEntity.swift */; };
+		FAB4F3152B64687400042C2D /* Entity+Sunlight.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB4F3142B64687400042C2D /* Entity+Sunlight.swift */; };
+		FAB4F3182B646B8C00042C2D /* Sunlight.skybox in Resources */ = {isa = PBXBuildFile; fileRef = FAB4F3172B646B8C00042C2D /* Sunlight.skybox */; };
+		FAB4F31B2B6562D300042C2D /* ImmersiveWorldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB4F31A2B6562D300042C2D /* ImmersiveWorldView.swift */; };
+		FAB4F31E2B6564E500042C2D /* EntityMovementViewModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB4F31D2B6564E500042C2D /* EntityMovementViewModifier.swift */; };
+		FAB4F3202B6719D100042C2D /* ImmersiveWorldToggle.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB4F31F2B6719D100042C2D /* ImmersiveWorldToggle.swift */; };
+		FAB4F3232B6ED36500042C2D /* ItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB4F3222B6ED36500042C2D /* ItemView.swift */; };
+		FAB4F3252B6EE3A000042C2D /* CarouselView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB4F3242B6EE3A000042C2D /* CarouselView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FAA5A5862B5C6E7100BF4374 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FAA5A5662B5C6E6F00BF4374 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FAA5A56D2B5C6E6F00BF4374;
+			remoteInfo = MiniatureCraft;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FA6F42572B5F449500133CC8 /* WorldEntity+Configuration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "WorldEntity+Configuration.swift"; sourceTree = "<group>"; };
+		FA6F425C2B5F4A8600133CC8 /* RotationSystem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotationSystem.swift; sourceTree = "<group>"; };
+		FA6F425F2B5F4C1F00133CC8 /* DragRotationModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragRotationModifier.swift; sourceTree = "<group>"; };
+		FA6F42612B5F506A00133CC8 /* WorldViewToggle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldViewToggle.swift; sourceTree = "<group>"; };
+		FA6F42642B5F5F6400133CC8 /* World.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = World.swift; sourceTree = "<group>"; };
+		FAA5A56E2B5C6E6F00BF4374 /* MiniatureCraft.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MiniatureCraft.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAA5A5722B5C6E6F00BF4374 /* RealityKitContent */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = RealityKitContent; sourceTree = "<group>"; };
+		FAA5A5752B5C6E6F00BF4374 /* MiniatureCraftApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiniatureCraftApp.swift; sourceTree = "<group>"; };
+		FAA5A5772B5C6E6F00BF4374 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FAA5A57B2B5C6E7000BF4374 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FAA5A57E2B5C6E7000BF4374 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FAA5A5802B5C6E7000BF4374 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAA5A5852B5C6E7100BF4374 /* MiniatureCraftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MiniatureCraftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAA5A5892B5C6E7100BF4374 /* MiniatureCraftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiniatureCraftTests.swift; sourceTree = "<group>"; };
+		FAA5A5952B5D986A00BF4374 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		FAA5A5972B5DA42800BF4374 /* Module.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Module.swift; sourceTree = "<group>"; };
+		FAA5A5992B5DA55900BF4374 /* WorldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldView.swift; sourceTree = "<group>"; };
+		FAA5A59C2B5DB06100BF4374 /* WorldEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldEntity.swift; sourceTree = "<group>"; };
+		FAB4F3142B64687400042C2D /* Entity+Sunlight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Entity+Sunlight.swift"; sourceTree = "<group>"; };
+		FAB4F3172B646B8C00042C2D /* Sunlight.skybox */ = {isa = PBXFileReference; lastKnownFileType = file.skybox; path = Sunlight.skybox; sourceTree = "<group>"; };
+		FAB4F31A2B6562D300042C2D /* ImmersiveWorldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImmersiveWorldView.swift; sourceTree = "<group>"; };
+		FAB4F31D2B6564E500042C2D /* EntityMovementViewModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntityMovementViewModifier.swift; sourceTree = "<group>"; };
+		FAB4F31F2B6719D100042C2D /* ImmersiveWorldToggle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImmersiveWorldToggle.swift; sourceTree = "<group>"; };
+		FAB4F3222B6ED36500042C2D /* ItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemView.swift; sourceTree = "<group>"; };
+		FAB4F3242B6EE3A000042C2D /* CarouselView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FAA5A56B2B5C6E6F00BF4374 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAA5A5742B5C6E6F00BF4374 /* RealityKitContent in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAA5A5822B5C6E7100BF4374 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FA6F425B2B5F4A7A00133CC8 /* Systems */ = {
+			isa = PBXGroup;
+			children = (
+				FA6F425C2B5F4A8600133CC8 /* RotationSystem.swift */,
+			);
+			path = Systems;
+			sourceTree = "<group>";
+		};
+		FA6F425E2B5F4C0F00133CC8 /* Modifiers */ = {
+			isa = PBXGroup;
+			children = (
+				FA6F425F2B5F4C1F00133CC8 /* DragRotationModifier.swift */,
+			);
+			path = Modifiers;
+			sourceTree = "<group>";
+		};
+		FA6F42632B5F5F4600133CC8 /* RealityViews */ = {
+			isa = PBXGroup;
+			children = (
+				FA6F42642B5F5F6400133CC8 /* World.swift */,
+			);
+			path = RealityViews;
+			sourceTree = "<group>";
+		};
+		FAA5A5652B5C6E6F00BF4374 = {
+			isa = PBXGroup;
+			children = (
+				FAA5A5702B5C6E6F00BF4374 /* MiniatureCraft */,
+				FAA5A5712B5C6E6F00BF4374 /* Packages */,
+				FAA5A5882B5C6E7100BF4374 /* MiniatureCraftTests */,
+				FAA5A56F2B5C6E6F00BF4374 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FAA5A56F2B5C6E6F00BF4374 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FAA5A56E2B5C6E6F00BF4374 /* MiniatureCraft.app */,
+				FAA5A5852B5C6E7100BF4374 /* MiniatureCraftTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FAA5A5702B5C6E6F00BF4374 /* MiniatureCraft */ = {
+			isa = PBXGroup;
+			children = (
+				FAB4F3212B6ED35800042C2D /* ItemView */,
+				FAB4F3192B6562B300042C2D /* ImmersiveWorldView */,
+				FAB4F3162B646AAF00042C2D /* Resources */,
+				FA6F42632B5F5F4600133CC8 /* RealityViews */,
+				FAA5A59B2B5DB04700BF4374 /* Entities */,
+				FAA5A5942B5D984C00BF4374 /* ViewModel */,
+				FAA5A5932B5D929E00BF4374 /* WorldView */,
+				FAA5A5752B5C6E6F00BF4374 /* MiniatureCraftApp.swift */,
+				FAA5A5772B5C6E6F00BF4374 /* ContentView.swift */,
+				FAA5A5802B5C6E7000BF4374 /* Info.plist */,
+				FAA5A57D2B5C6E7000BF4374 /* Preview Content */,
+			);
+			path = MiniatureCraft;
+			sourceTree = "<group>";
+		};
+		FAA5A5712B5C6E6F00BF4374 /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				FAA5A5722B5C6E6F00BF4374 /* RealityKitContent */,
+			);
+			path = Packages;
+			sourceTree = "<group>";
+		};
+		FAA5A57D2B5C6E7000BF4374 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				FAA5A57E2B5C6E7000BF4374 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FAA5A5882B5C6E7100BF4374 /* MiniatureCraftTests */ = {
+			isa = PBXGroup;
+			children = (
+				FAA5A5892B5C6E7100BF4374 /* MiniatureCraftTests.swift */,
+			);
+			path = MiniatureCraftTests;
+			sourceTree = "<group>";
+		};
+		FAA5A5932B5D929E00BF4374 /* WorldView */ = {
+			isa = PBXGroup;
+			children = (
+				FA6F425E2B5F4C0F00133CC8 /* Modifiers */,
+				FA6F425B2B5F4A7A00133CC8 /* Systems */,
+				FAA5A5992B5DA55900BF4374 /* WorldView.swift */,
+				FA6F42612B5F506A00133CC8 /* WorldViewToggle.swift */,
+			);
+			path = WorldView;
+			sourceTree = "<group>";
+		};
+		FAA5A5942B5D984C00BF4374 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				FAA5A5952B5D986A00BF4374 /* ViewModel.swift */,
+				FAA5A5972B5DA42800BF4374 /* Module.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		FAA5A59B2B5DB04700BF4374 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				FAA5A59C2B5DB06100BF4374 /* WorldEntity.swift */,
+				FA6F42572B5F449500133CC8 /* WorldEntity+Configuration.swift */,
+				FAB4F3142B64687400042C2D /* Entity+Sunlight.swift */,
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		FAB4F3162B646AAF00042C2D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				FAA5A57B2B5C6E7000BF4374 /* Assets.xcassets */,
+				FAB4F3172B646B8C00042C2D /* Sunlight.skybox */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		FAB4F3192B6562B300042C2D /* ImmersiveWorldView */ = {
+			isa = PBXGroup;
+			children = (
+				FAB4F31C2B6564D800042C2D /* Modifiers */,
+				FAB4F31A2B6562D300042C2D /* ImmersiveWorldView.swift */,
+				FAB4F31F2B6719D100042C2D /* ImmersiveWorldToggle.swift */,
+			);
+			path = ImmersiveWorldView;
+			sourceTree = "<group>";
+		};
+		FAB4F31C2B6564D800042C2D /* Modifiers */ = {
+			isa = PBXGroup;
+			children = (
+				FAB4F31D2B6564E500042C2D /* EntityMovementViewModifier.swift */,
+			);
+			path = Modifiers;
+			sourceTree = "<group>";
+		};
+		FAB4F3212B6ED35800042C2D /* ItemView */ = {
+			isa = PBXGroup;
+			children = (
+				FAB4F3222B6ED36500042C2D /* ItemView.swift */,
+				FAB4F3242B6EE3A000042C2D /* CarouselView.swift */,
+			);
+			path = ItemView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FAA5A56D2B5C6E6F00BF4374 /* MiniatureCraft */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAA5A58D2B5C6E7100BF4374 /* Build configuration list for PBXNativeTarget "MiniatureCraft" */;
+			buildPhases = (
+				FAA5A56A2B5C6E6F00BF4374 /* Sources */,
+				FAA5A56B2B5C6E6F00BF4374 /* Frameworks */,
+				FAA5A56C2B5C6E6F00BF4374 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MiniatureCraft;
+			packageProductDependencies = (
+				FAA5A5732B5C6E6F00BF4374 /* RealityKitContent */,
+			);
+			productName = MiniatureCraft;
+			productReference = FAA5A56E2B5C6E6F00BF4374 /* MiniatureCraft.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FAA5A5842B5C6E7100BF4374 /* MiniatureCraftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAA5A5902B5C6E7100BF4374 /* Build configuration list for PBXNativeTarget "MiniatureCraftTests" */;
+			buildPhases = (
+				FAA5A5812B5C6E7100BF4374 /* Sources */,
+				FAA5A5822B5C6E7100BF4374 /* Frameworks */,
+				FAA5A5832B5C6E7100BF4374 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FAA5A5872B5C6E7100BF4374 /* PBXTargetDependency */,
+			);
+			name = MiniatureCraftTests;
+			productName = MiniatureCraftTests;
+			productReference = FAA5A5852B5C6E7100BF4374 /* MiniatureCraftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FAA5A5662B5C6E6F00BF4374 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					FAA5A56D2B5C6E6F00BF4374 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					FAA5A5842B5C6E7100BF4374 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = FAA5A56D2B5C6E6F00BF4374;
+					};
+				};
+			};
+			buildConfigurationList = FAA5A5692B5C6E6F00BF4374 /* Build configuration list for PBXProject "MiniatureCraft" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FAA5A5652B5C6E6F00BF4374;
+			productRefGroup = FAA5A56F2B5C6E6F00BF4374 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FAA5A56D2B5C6E6F00BF4374 /* MiniatureCraft */,
+				FAA5A5842B5C6E7100BF4374 /* MiniatureCraftTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FAA5A56C2B5C6E6F00BF4374 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAA5A57F2B5C6E7000BF4374 /* Preview Assets.xcassets in Resources */,
+				FAB4F3182B646B8C00042C2D /* Sunlight.skybox in Resources */,
+				FAA5A57C2B5C6E7000BF4374 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAA5A5832B5C6E7100BF4374 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FAA5A56A2B5C6E6F00BF4374 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA6F42622B5F506A00133CC8 /* WorldViewToggle.swift in Sources */,
+				FAB4F3152B64687400042C2D /* Entity+Sunlight.swift in Sources */,
+				FAB4F3202B6719D100042C2D /* ImmersiveWorldToggle.swift in Sources */,
+				FAB4F3232B6ED36500042C2D /* ItemView.swift in Sources */,
+				FAB4F31E2B6564E500042C2D /* EntityMovementViewModifier.swift in Sources */,
+				FAA5A59A2B5DA55900BF4374 /* WorldView.swift in Sources */,
+				FAB4F31B2B6562D300042C2D /* ImmersiveWorldView.swift in Sources */,
+				FAB4F3252B6EE3A000042C2D /* CarouselView.swift in Sources */,
+				FAA5A5782B5C6E6F00BF4374 /* ContentView.swift in Sources */,
+				FA6F42602B5F4C1F00133CC8 /* DragRotationModifier.swift in Sources */,
+				FA6F42582B5F449500133CC8 /* WorldEntity+Configuration.swift in Sources */,
+				FA6F42652B5F5F6400133CC8 /* World.swift in Sources */,
+				FAA5A5762B5C6E6F00BF4374 /* MiniatureCraftApp.swift in Sources */,
+				FAA5A5962B5D986A00BF4374 /* ViewModel.swift in Sources */,
+				FAA5A5982B5DA42800BF4374 /* Module.swift in Sources */,
+				FAA5A59D2B5DB06100BF4374 /* WorldEntity.swift in Sources */,
+				FA6F425D2B5F4A8600133CC8 /* RotationSystem.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAA5A5812B5C6E7100BF4374 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAA5A58A2B5C6E7100BF4374 /* MiniatureCraftTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FAA5A5872B5C6E7100BF4374 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FAA5A56D2B5C6E6F00BF4374 /* MiniatureCraft */;
+			targetProxy = FAA5A5862B5C6E7100BF4374 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		FAA5A58B2B5C6E7100BF4374 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = xros;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				XROS_DEPLOYMENT_TARGET = 1.0;
+			};
+			name = Debug;
+		};
+		FAA5A58C2B5C6E7100BF4374 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = xros;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+				XROS_DEPLOYMENT_TARGET = 1.0;
+			};
+			name = Release;
+		};
+		FAA5A58E2B5C6E7100BF4374 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MiniatureCraft/Preview Content\"";
+				DEVELOPMENT_TEAM = G8JRLHA5P5;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "$(TARGET_NAME)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = alxrod.MiniatureCraft;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+			};
+			name = Debug;
+		};
+		FAA5A58F2B5C6E7100BF4374 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MiniatureCraft/Preview Content\"";
+				DEVELOPMENT_TEAM = G8JRLHA5P5;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "$(TARGET_NAME)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = alxrod.MiniatureCraft;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+			};
+			name = Release;
+		};
+		FAA5A5912B5C6E7100BF4374 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G8JRLHA5P5;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = alxrod.MiniatureCraftTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MiniatureCraft.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MiniatureCraft";
+				XROS_DEPLOYMENT_TARGET = 1.0;
+			};
+			name = Debug;
+		};
+		FAA5A5922B5C6E7100BF4374 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G8JRLHA5P5;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = alxrod.MiniatureCraftTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MiniatureCraft.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MiniatureCraft";
+				XROS_DEPLOYMENT_TARGET = 1.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FAA5A5692B5C6E6F00BF4374 /* Build configuration list for PBXProject "MiniatureCraft" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAA5A58B2B5C6E7100BF4374 /* Debug */,
+				FAA5A58C2B5C6E7100BF4374 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAA5A58D2B5C6E7100BF4374 /* Build configuration list for PBXNativeTarget "MiniatureCraft" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAA5A58E2B5C6E7100BF4374 /* Debug */,
+				FAA5A58F2B5C6E7100BF4374 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAA5A5902B5C6E7100BF4374 /* Build configuration list for PBXNativeTarget "MiniatureCraftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAA5A5912B5C6E7100BF4374 /* Debug */,
+				FAA5A5922B5C6E7100BF4374 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		FAA5A5732B5C6E6F00BF4374 /* RealityKitContent */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = RealityKitContent;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = FAA5A5662B5C6E6F00BF4374 /* Project object */;
+}
