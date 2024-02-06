@@ -1,6 +1,6 @@
 # Minecraft in the Vision Pro
 
-[Notion: read the full descripton on my notion page here](https://marbled-tarn-a59.notion.site/Minecraft-in-the-Vision-Pro-fe7ecf8bc2364daabc11d02f76f8e023?pvs=4)
+[Notion: read the full descripton and watch the demo video on my notion page here](https://marbled-tarn-a59.notion.site/Minecraft-in-the-Vision-Pro-fe7ecf8bc2364daabc11d02f76f8e023?pvs=4)
 
 ## Inspiration:
 
@@ -14,8 +14,8 @@ Currently, the workflow for converting Minecraft worlds is simple:
 
 1. Log into Minecraft and find your world of choice
 2. Use the Minecraft coordinate system to record the coordinates of opposite diagonals of the volume you want to bring into Vision Pro
-3. Run my bash script `[convert_world.sh](https://github.com/alxrod/MiniatureCraft/blob/main/convert_world.sh)` to turn the world into a USDZ file
-4. Add the file to the Xcode project and add it to the WorldTypes in `[MiniatureCraft/MiniatureCraft/Entities/WorldEntity+Configuration.swift](https://github.com/alxrod/MiniatureCraft/blob/main/MiniatureCraft/Entities/WorldEntity%2BConfiguration.swift)`
+3. Run my bash script [convert_world.sh](https://github.com/alxrod/MiniatureCraft/blob/main/convert_world.sh) to turn the world into a USDZ file
+4. Add the file to the Xcode project and add it to the WorldTypes in [MiniatureCraft/MiniatureCraft/Entities/WorldEntity+Configuration.swift](https://github.com/alxrod/MiniatureCraft/blob/main/MiniatureCraft/Entities/WorldEntity%2BConfiguration.swift)
 
 To create this conversion script, I relied on two main software packages.
 
